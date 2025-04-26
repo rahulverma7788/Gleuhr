@@ -131,7 +131,7 @@ async def initialize_chatbot():
 
     try:
         # Load fixed PDF
-        pdf_file_path = "/Users/mac/Downloads/chatbot/Product Guide.pdf"
+        pdf_file_path = "pdf/Product Guide.pdf"
         pdf_text = None
         if os.path.exists(pdf_file_path):
             with open(pdf_file_path, "rb") as f:
